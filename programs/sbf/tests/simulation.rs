@@ -1,7 +1,7 @@
 #![cfg(feature = "sbf_rust")]
 
 use {
-    agave_validator::test_validator::*,
+    gorbagana_validator::test_validator::*,
     solana_instruction::{AccountMeta, Instruction},
     solana_keypair::Keypair,
     solana_message::Message,

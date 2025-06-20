@@ -232,5 +232,5 @@ pub fn get_clap_app<'ab, 'v>(name: &str, about: &'ab str, version: &'v str) -> A
                         .possible_values(&["bash", "fish", "zsh", "powershell", "elvish"])
                         .default_value("bash"),
                 ),
-        )
+        )        
 }
